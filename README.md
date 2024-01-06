@@ -15,18 +15,18 @@ The frontend is available at: https://github.com/MilanBojic1999/raf-rpg-front<br
 # How to run
 Download greed_island-master that is the backend for the game server, raf-rpg-front-master is the frontend and rl_player_raf_rpg.py is the actual RL agent.<br>
 Go to the greed_island-master folder through the terminal and run<br><br>
-java -jar greed_island-0.0.1-SNAPSHOT.jar --server.port=8080<br><br>
+<strong>java -jar greed_island-0.0.1-SNAPSHOT.jar --server.port=8080</strong><br><br>
 the spring server should start running. Next go to the raf-rpg-front-master folder through the terminal and run<br><br>
-ng serve --host 0.0.0.0 --disable-host-check<br><br>
+<strong>ng serve --host 0.0.0.0 --disable-host-check</strong><br><br>
 If you're having problems with this command I found the following quick fixes:<br><br>
-On Unix like OS's (Linux, Mac...): export NODE_OPTIONS=--openssl-legacy-provider<br><br>
-On Windows: set NODE_OPTIONS=--openssl-legacy-provider<br><br>
+On Unix like OS's (Linux, Mac...): <strong>export NODE_OPTIONS=--openssl-legacy-provider</strong><br><br>
+On Windows: <strong>set NODE_OPTIONS=--openssl-legacy-provider</strong><br><br>
 The frontend takes a bit to load up. Next go to your browser to localhost:4200 and you should see something like this.<br>
 
 ![game](pics/Immagine.jpg)
 
 And finally to make the agent play the game open another cmd in the folder that contains rl_player_raf_rpg.py, and run it using<br><br>
-python rl_player_raf_rpg.py<br><br>
+<strong>python rl_player_raf_rpg.py</strong><br><br>
 You should see the player moving. The agent will play 10 episodes (maps). He can either succeed withing 1000 moves or he will restart the map.<br>
 
 # Design
