@@ -1,7 +1,11 @@
 # Reinforcement-learning-agent-RAF-Deep-RPG
 A Reinforcement learning agent based on Q-learning that plays RAF-Deep-RPG 2D game.
 
-![gameplay](pics/agent-gameplay.mp4)
+
+
+https://github.com/Mixa26/Reinforcement-learning-agent-RAF-Deep-RPG/assets/71144280/1fb3ac24-b6b2-4cd4-8777-a899fdadee5a
+
+
 
 The game (frontend and backend) was written by Milan Bojić. You can find his github here: https://github.com/MilanBojic1999<br><br>
 The backend and frontend are in this repository but also you can find them on the following:<br>
