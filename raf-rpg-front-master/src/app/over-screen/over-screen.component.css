@@ -1,0 +1,11 @@
+
+.game_over_div {
+  background: #0a0000;
+  align-content: center;
+}
+
+.game_over_sign {
+  font-family: "Times New Roman", serif;
+  font-size: 32px;
+  color: #4F0001;
+}

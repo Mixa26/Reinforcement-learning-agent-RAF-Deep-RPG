@@ -1,0 +1,13 @@
+<div class="grid_div" [style.width]="calculateWidth()" >
+  <mat-grid-list cols="{{number_of_tiles}}" rowHeight="64px" gutterSize="1px">
+    <mat-grid-tile *ngFor="let tile of tiles"><img src="{{castToImage(tile)}}" alt="title"/></mat-grid-tile>
+<!--    <mat-grid-tile></mat-grid-tile>-->
+<!--    <mat-grid-tile><img src="assets/game tiles/Mountain_Tile.png" alt="title"/></mat-grid-tile>-->
+<!--    <mat-grid-tile><img src="assets/game tiles/Water_Tile.png" alt="title"/></mat-grid-tile>-->
+<!--    <mat-grid-tile><img src="assets/game tiles/Pasture_Tile.png" alt="title"/></mat-grid-tile>-->
+  </mat-grid-list>
+</div>
+
+<!--<input (keydown)="onKeyDown($event)">-->
+
+

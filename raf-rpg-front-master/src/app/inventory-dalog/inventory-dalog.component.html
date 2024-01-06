@@ -1,0 +1,10 @@
+
+Amount of gold: <b>{{input.gold}}</b>
+<div class="grid">
+  <mat-grid-list cols="{{inventorySize}}" rowHeight="64px" gutterSize="1px">
+    <mat-grid-tile *ngFor="let inv of input.inventory | keyvalue">
+      <img class="loot" src="{{castToImage(inv.key)}}" alt="{{inv.key}}}"/>
+      <b>{{inv.value}}</b>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
